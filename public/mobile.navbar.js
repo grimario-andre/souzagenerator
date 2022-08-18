@@ -17,9 +17,28 @@ class MobileNavBar{
 
     }
 
+    /**
+     * Metedo responsavel por animar os links do nav bar
+     */
+    animateLinks(){
+        this.navLinks.forEach((link, index) => {
+            link.style.animation ? (link.style.animation = "") : (link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`);
+        });
+    }
+
+    /**
+     * Metedo responsavel por executar o evento click
+     */
     handleClick(){
         console.log(this);
         this.navList.classList.toggle(this.activeClass);
+
+        //ANIMACAO MOBILE MENU
+        this.mobileMenu.classList.toggle(this.activeClass);
+
+        //ANIMACAO DE LINKS 
+        this.animateLinks();
+
     }
 
    /**
@@ -29,7 +48,6 @@ class MobileNavBar{
         this.mobileMenu.addEventListener("click", this.handleClick);
     }
 
-    //TESTE
     init(){
         if (this.mobileMenu) {
             this.addClickEvent();
