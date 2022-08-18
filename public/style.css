@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 a {
@@ -25,7 +26,6 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: #23232e;
     height: 8vh;
 }
@@ -33,7 +33,7 @@ nav{
 main{
     background: url("/public/img/bg.jpg") no-repeat center center;
     background-size: cover;
-    height: 92vh;
+    height: 63vh;
 }
 
 .nav-list{
@@ -120,4 +120,18 @@ main{
 
 
 /***** End Header *****/
+
+/***** FOOTER *****/
+footer{
+    background-color: #23232e;
+    color: #ffffff;
+    padding: 4rem 1rem;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/***** End FOOTER *****/
 

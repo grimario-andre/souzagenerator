@@ -1,20 +1,40 @@
  </div>
  <!-- END CONTAINER -->
-
-
+ <!-- FOOTER -->
+ <footer>
+   <div class="container">
+     <div class="footer-main">
+       <div class="footer-colum">
+         <h3 class="footer-heading">heanding one</h3>
+         <a href="#" class="footer-link">link1</a>
+         <a href="#" class="footer-link">link2</a>
+         <a href="#" class="footer-link">link3</a>
+       </div>
+       <div class="footer-colum">
+         <h3 class="footer-heading">heanding one</h3>
+         <a href="#" class="footer-link">link1</a>
+         <a href="#" class="footer-link">link2</a>
+         <a href="#" class="footer-link">link3</a>
+       </div>
+       <div class="footer-colum">
+         <h3 class="footer-heading">heanding one</h3>
+         <a href="#" class="footer-link">link1</a>
+         <a href="#" class="footer-link">link2</a>
+         <a href="#" class="footer-link">link3</a>
+       </div>
+     </div>
+     <div class="footer-bottom">
+       <span class="copyright">$copy; 2022 Souza Dev </span>
+       <a href="#" class="footer-social"><i class="fab fa-facebook-f"></i></a>
+       <a href="#" class="footer-social"><i class="fab fa-linkedin"></i></a>
+       <a href="#" class="footer-social"><i class="fab fa-github"></i></a>
+     </div>
+   </div>
+ </footer>
+ <!-- END FOOTER -->
  <!-- SCRIPSTS -->
-
- <!-- Option 1: Bootstrap Bundle with Popper -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
- <!-- Option 2: Separate Popper and Bootstrap JS -->
- <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-
-   <!-- MOBILE NAV-BAR --> 
-   <script src="/public/mobile.navbar.js"></script>
+ <!-- MOBILE NAV-BAR -->
+ <script src="/public/mobile.navbar.js"></script>
  </body>
 
  </html>
