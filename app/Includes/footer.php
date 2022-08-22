@@ -2,7 +2,7 @@
 <!-- END MAIN -->
 <!-- FOOTER -->
 <footer>
-  <div class="container">
+  <div class="container-footer">
     <div class="footer-main">
       <div class="footer-colum">
         <h3 class="footer-heading">heanding one</h3>
@@ -23,6 +23,7 @@
 <!-- SCRIPSTS -->
 <!-- MOBILE NAV-BAR -->
 <script src="/public/mobile.navbar.js"></script>
+<script src="/public/main.js"></script>
 </body>
 
 </html>

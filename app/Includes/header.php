@@ -36,4 +36,4 @@
     </header>
     <!-- END HEADER -->
     <!-- MAIN -->
-    <main>
+    <main class="bg-background container-form">
