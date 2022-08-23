@@ -1,6 +1,6 @@
 <div class="container__form">
     <!-- FORM LOGIN -->
-    <form action="" class="form form__hidden" id="login">
+    <form action="" class="form" id="login">
         <h1 class="form__title">Login</h1>
         <!-- Username / E-mail -->
         <div class="form__message form__message--error">
@@ -34,7 +34,7 @@
     </form>
 
     <!-- FORM CREATE ACCOUNT -->
-    <form action="" class="form" id="createAccount">
+    <form action="" class="form__create--account form__hidden" id="createAccount">
         <h1 class="form__title">Cadastrar Empresa</h1>
         <div class="form__message form__message--error">
             <!-- output error message -->
@@ -82,13 +82,22 @@
             </div>
         </div>
 
+        <!-- TERMS AND CONDITIONS -->
+        <div class="form__input-group">
+            <input type="checkbox">
+            <a href="#"> Concorda com os termos e condicoes?</a>
+            <div class="form__input--error-message">
+                <!-- output error message -->
+            </div>
+        </div>
+
         <!-- SUBMIT -->
         <div class="form___button">
             <button type="submit" class="form__button">Cadastrar</button>
         </div>
 
-         <!-- SIGN IN -->
-         <p class="form__text">
+        <!-- SIGN IN -->
+        <p class="form__text">
             <a href="#" class="form__link" id="linkLogin">Ja tem uma conta? Acesse agora</a>
         </p>
     </form>

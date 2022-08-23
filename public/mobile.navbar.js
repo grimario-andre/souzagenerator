@@ -1,7 +1,10 @@
+/**
+ * Classe responsavel por pela animacao e responsividade do NavBar e Navbar mobile.
+ */
 class MobileNavBar{
     
     /**
-     * Metodo responsavel por referenciar os atributos da mesma 
+     * Metodo responsavel por instaciar a classe MobileNavBar
      * @param {*} mobileMenu 
      * @param {*} navList 
      * @param {*} navLinks 

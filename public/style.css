@@ -206,13 +206,17 @@ footer a:hover {
     font-size: 18px;
 }
 
+.form{
+    margin: 5rem auto auto auto; 
+}
+
 .form__hidden{
     display: none;
 }
 
 .container__form{
     width: 480px;
-    height: 520px;
+    height: 580px;
     /*max-width: 350px;*/
     margin: 0rem;
     padding: 1rem;
