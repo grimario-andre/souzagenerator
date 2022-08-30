@@ -1,0 +1,6 @@
+Sistema tem como resolucao dos problemas relacionados a falta de organizacao, check list e verificacao de chamados e orcamentos.
+
+
+1- Sistuacao problema.
+Ao entrar no site, sera necessario realizar o login, caso nao tenha uma conta, deverar ser criada uma, antes sera feita uma autenticao para
+saber se o numero de identificacao da empresa existe e caso seja, as informacoes da mesma deverao ser automaticamente preenchidas no formulario em questao.
