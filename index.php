@@ -1,5 +1,8 @@
 <?php
 //REQUIRE AUTOLOAD
+
+use App\Models\Company;
+
 require_once __DIR__.'/vendor/autoload.php';
 
 use App\Services\Web\Speedio;
@@ -19,6 +22,14 @@ echo '<pre>';
 print_r($resultado);
 echo '</pre>';
 exit;
+
+// $company = new Company();
+// $company->csocialname = "qualquer coisa";
+
+// echo '<pre>';
+// print_r($company->__get($company->csocialname));
+// echo '</pre>';
+// exit;
 
 //DIFINIR TITULO
 define('TITLE', 'GENPED');
